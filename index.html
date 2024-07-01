@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+
+    <section class="games-sec">
+        <header>
+            <img src="images/backgroundImage.png" alt="header game image" class="w-100">
+        </header>
+        <nav class="navbar mx-auto navbar-expand-lg position-sticky top-0 rounded-4 z-3 col-md-6 col-lg-9">
+            <div class="container px-3">
+                <h2 class="text-white h5 text-nowrap d-flex align-items-center">
+                    <img src="images/logo-sm.png" alt="logo-sm" width="40">
+                    GAME REVIEWS
+                </h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 ms-auto mb-lg-0 text-uppercase">
+                        <li class="nav-item small">
+                            <a class="nav-link text-white active" aria-current="page" id="mmorpg" href="#">mmorpg</a>
+                        </li>
+                        <li class="nav-item small">
+                            <a class="nav-link text-white" id="shooter" href="#">shooter</a>
+                        </li>
+                        <li class="nav-item small">
+                            <a class="nav-link text-white" id="sailing" href="#">sailing</a>
+                        </li>
+                        <li class="nav-item small">
+                            <a class="nav-link text-white" id="permadeath" href="#">permadeath</a>
+                        </li>
+                        <li class="nav-item small">
+                            <a class="nav-link text-white" id="superhero" href="#">superhero</a>
+                        </li>
+                        <li class="nav-item small">
+                            <a class="nav-link text-white" id="pixel" href="#">pixel</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container games mt-5">
+            <div class="row placeGamesHere">
+                <div class="spinner overlay position-absolute z-3 top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center">
+                    <div><span class="loader"></span></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="game-details-sec my-4 d-none">
+        <div class="container placeDetailsHere">
+            
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
